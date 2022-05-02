@@ -1,0 +1,78 @@
+body{
+    background-color:lightgoldenrodyellow;
+    }
+    
+    header{
+        font-size: xx-large;
+        padding: 20px;
+        text-align: right;
+        font-weight: bolder;
+        background-color: rgb(248, 4, 4);
+        color: rgb(0, 0, 0);
+    }
+   
+}
+
+
+#nav-section{
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+}
+
+.menu{
+    margin: 0px;
+    background-color:rgba(160, 154, 154, 0.5);
+}
+
+.menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.Sub-Menu-Link2{
+    display: none;
+}
+
+.Sub-Menu-Link3{
+    display: none;
+}
+.menu li:hover{
+    background-color: black;
+}
+
+.menu li:hover .Sub-Menu-Link2{
+    display: block;
+    position: absolute;
+    background-color: rgb(153, 176, 191);
+    margin-top: 15px;
+    margin-left: -15px; ;
+  
+}
+
+.menu li:hover .Sub-Menu-Link3{
+    display: block;
+   
+    position: absolute;
+    background-color: rgb(153, 176, 191);
+    margin-top: 15px;
+    margin-left: -15px; ;
+  
+}
+
+.menu li:hover .Sub-Menu-Link2 ul li{
+    display: block;
+    margin: 5px;
+}
+
+.menu li:hover .Sub-Menu-Link3 ul li{
+    display: block;
+    margin: 5px;
+}
